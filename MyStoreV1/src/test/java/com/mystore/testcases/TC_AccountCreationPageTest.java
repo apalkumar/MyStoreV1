@@ -15,6 +15,7 @@ import com.mystore.pageObject.myAccountPage;
 public class TC_AccountCreationPageTest extends BaseClass {
 	
 	public boolean str;
+	public boolean str1;
 
 	@Test
 	public void accountRegistration() throws IOException {
@@ -49,6 +50,7 @@ public class TC_AccountCreationPageTest extends BaseClass {
 		cap.select_months("May");
 		cap.select_years("2025");
 		cap.validate_Register();
+		
 
 	
 	}
